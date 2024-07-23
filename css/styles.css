@@ -1,1 +1,56 @@
- 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+.experience {
+    margin-bottom: 15px;
+}
+.experience-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+.experience-details {
+    display: none;
+    padding: 10px;
+    border: 1px solid #000;
+    border-top: none;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
