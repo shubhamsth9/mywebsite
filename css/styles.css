@@ -5,7 +5,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 .container {
     background-color: #fff;
@@ -13,10 +13,9 @@ body {
     max-width: 800px;
     margin: 20px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1, h2 {
-    text-align: center;
+    text-align: left;
 }
 .section {
     margin-bottom: 20px;
@@ -24,7 +23,7 @@ h1, h2 {
 .section-title {
     margin-bottom: 10px;
     font-size: 1.5em;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #dedede;
     padding-bottom: 5px;
 }
 .experience {
@@ -35,17 +34,20 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: #fbfbfb;
 }
 .experience-details {
     display: none;
     padding: 10px;
-    border: 1px solid #000;
+    border: 1px solid #000 ;
+    border-radius: 10px;
     border-top: none;
 }
-footer {
+.footer {
+    font-size: 0.9em;
     text-align: center;
     margin-top: 20px;
 }
