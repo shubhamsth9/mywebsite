@@ -1,0 +1,48 @@
+.App {
+  text-align: left;
+  width: 95%;
+  max-width: 800px;
+  line-height: 1.5em;
+  /* margin: 4% 1%; */
+  padding: 4%;
+}
+
+.about-me {
+  border-bottom: 2px solid #edecec;
+}
+
+.experience {
+  border-bottom: 2px solid #edecec;
+}
+
+.experience-details {
+  margin: 0px 10px;
+}
+
+.experience-details-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  font-weight: normal;
+}
+
+.footer {
+  font-size: 0.9em;
+  margin: 15px 0px 10px 0px;
+  text-align: center;
+}
+
+.social-gh, .social-lc, .social-li {
+  color: rgb(117, 74, 255);
+  text-decoration: none;
+  border-bottom: 1px solid;
+  margin: 0px 5px;
+  padding: 0px 5px;
+}
+
+a {
+  /* text-decoration: none; */
+}
