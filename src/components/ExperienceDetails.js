@@ -1,3 +1,5 @@
+// This component is no longer used, it has been replaced with CollapsibleComponent
+
 import React from "react";
 
 const ExperienceDetails = ({title, company, duration, description}) => {

@@ -7,13 +7,41 @@
   padding: 4%;
 }
 
-.about-me {
-  border-bottom: 2px solid #edecec;
+.collapsible-comp {
+  margin: 20px 0px;
+  padding: 10px;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-.experience {
-  border-bottom: 2px solid #edecec;
+.collapsible-button{
+  width: 100%;
+  background-color: transparent;
+  font: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
 }
+
+.collapsible-title-heading {
+  margin: 0%;
+}
+
+.collapsible-description {
+  margin: 5px;
+}
+
+.collapsible-description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .experience {
+  
+} */
 
 .experience-details {
   margin: 0px 10px;
@@ -35,6 +63,12 @@
   text-align: center;
 }
 
+.line-break {
+  margin: 1em 0em;
+  border: 1.5px solid #f3f3f3;
+  border-radius: 1px;
+}
+
 .social-gh, .social-lc, .social-li {
   color: rgb(117, 74, 255);
   text-decoration: none;
@@ -43,6 +77,21 @@
   padding: 0px 5px;
 }
 
-a {
-  /* text-decoration: none; */
+p {
+  margin-block-start: .2em;
+  margin-block-end: .2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 500;
 }
