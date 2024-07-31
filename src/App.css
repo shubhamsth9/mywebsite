@@ -8,6 +8,10 @@
   padding: 4%;
 }
 
+.app-header {
+  color: rgb(130, 54, 230);
+}
+
 .about-me {
   margin: 1em 0em;
 }
@@ -15,9 +19,9 @@
 .collapsible-comp {
   margin: 20px 0px;
   padding: 10px;
-  border: 2px solid #f1f1f1;
+  border: 2px solid #f5edff;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #f7f7f76b;
 }
 
 .collapsible-button{
@@ -97,7 +101,7 @@
 
 .line-break {
   margin: 0.5em 0em;
-  border: 1.5px solid #f3f3f3;
+  border: 1.5px solid #e6ddff;
   border-radius: 1px;
 }
 
