@@ -30,7 +30,7 @@ function App() {
     {title : "Web developer",
      company : "Alphalake",
      duration : "May'22 - Jul'22",
-     description : ["details to be added"]
+     description : ["HTML, CSS, Javascript", "details to be added"]
     },
     {title : "UI/UX Designer",
      company : "Food By Choice",
