@@ -1,5 +1,5 @@
 import './App.css'
-// import BgAnimation from './components/BgAnimation';
+// import BgAnimation from './components/BgAnimation'
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import Footer from './components/Footer'
