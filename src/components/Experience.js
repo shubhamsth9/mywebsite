@@ -1,5 +1,5 @@
 import React from "react";
-import CollapsibleComponent from './collapsibleComp';
+import CollapsibleComponent from './collapsibleComponent';
 // import ExperienceDetails from "./ExperienceDetails"; No longer used, replaced by CollapsibleComponent
 
 const Experience = ({title, experienceList}) => {

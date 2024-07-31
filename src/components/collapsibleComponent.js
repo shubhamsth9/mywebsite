@@ -26,13 +26,11 @@ const CollapsibleComponent = ({title, company, duration, description}) => {
         {isOpen && (
           <div className="collapsible-description">
             <div className='collapsible-description-header'>
-                <p>at {company}</p>
-                <p>{duration}</p>
+                <p className='collapsible-description-company'>at {company}</p>
+                <p className='collapsible-description-duration'>{duration}</p>
             </div>
             <LineBreak/>
-            {description.map((desc, index) => {
-                <Description descItem = {desc} />
-            })}
+            <Description description = {description} />
           </div>
         )}
       </div>

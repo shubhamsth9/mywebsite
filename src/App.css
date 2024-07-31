@@ -1,10 +1,15 @@
-.App {
+.app-content {
+  max-width: 800px;
+  z-index: 1;
   text-align: left;
   width: 95%;
-  max-width: 800px;
   line-height: 1.5em;
   /* margin: 4% 1%; */
   padding: 4%;
+}
+
+.about-me {
+  margin: 1em 0em;
 }
 
 .collapsible-comp {
@@ -17,12 +22,14 @@
 
 .collapsible-button{
   width: 100%;
+  cursor: pointer;
   background-color: transparent;
   font: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: none;
+
 }
 
 .collapsible-title-heading {
@@ -37,6 +44,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.collapsible-description-company {
+  text-align: left;
+}
+
+.collapsible-description-duration{
+  text-align: right;
+}
+
+.content-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 1;
+  text-align: left;
+  /* width: 95%; */
+  line-height: 1.5em;
+  /* margin: 4% 1%; */
+  padding: 4%;
+}
+
+.desc-item {
+  display: block;
 }
 
 /* .experience {
@@ -64,9 +96,26 @@
 }
 
 .line-break {
-  margin: 1em 0em;
+  margin: 0.5em 0em;
   border: 1.5px solid #f3f3f3;
   border-radius: 1px;
+}
+
+.lottie-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.main-container {
+  position: relative;
+  z-index: -2;
 }
 
 .social-gh, .social-lc, .social-li {

@@ -1,11 +1,11 @@
 import React from "react";
 
-const Description = ({descItem}) => {
+const Description = ({description}) => {
     return(
         <div>
-            <p> 
-                {descItem}
-            </p>
+            {description.map((item) => (
+                <p className="desc-item">- {item}</p>
+            ))}
         </div>
     )
 }

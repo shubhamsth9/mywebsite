@@ -1,4 +1,5 @@
 import './App.css'
+import BgAnimation from './components/BgAnimation'
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import Footer from './components/Footer'
@@ -10,18 +11,18 @@ function App() {
      company : "Tata Consultancy Services, Pune",
      duration : "Jul'23 - Present",
      description : [
-      "- Bhaiya hum hain salesforce developer at tcs currently, bole to apex lwc admin",
-      "- Apex Classes, Triggers, Test Classes \n- Reports and Dashboards",
-      "- User and data security management using permission sets, public groups, sharing rules etc"
+      "Bhaiya hum hain salesforce developer at tcs currently, bole to apex lwc admin",
+      "Apex Classes, Triggers, Test Classes \n- Reports and Dashboards",
+      "User and data security management using permission sets, public groups, sharing rules etc"
      ]
     },
     {title : "Web Developer",
      company : "Octalancer",
      duration : "Jul'22 - Dec'22",
      description : [
-      "- Bhaiyaji hum hain salesforce developer at tcs currently, bole to apex lwc admin",
-      "- Apex Classes, Triggers, Test Classes \n- Reports and Dashboards",
-      "- User and data security management using permission sets, public groups, sharing rules etc"
+      "cofounderjeet",
+      "grapik designing",
+      "content writing"
      ]
     }
   ]
@@ -40,18 +41,18 @@ function App() {
 
 
   return(
-    <div className='App'>
-      <header className='App-header'>
-        <h1>Namaste 🙏 </h1>
-      </header>
-      <AboutMe />
-      <LineBreak/>
-      <Experience title={"Career Trajectory"} experienceList={careerList}/>
-      <LineBreak/>
-      <Experience title={"Some Internships"} experienceList={internshipList} />
-      <LineBreak/>
-      <Footer />
-    </div>
+      <div className='app-content'>
+        <header className='app-header'>
+          <h1>Namaste 🙏 </h1>
+        </header>
+        <AboutMe />
+        <LineBreak/>
+        <Experience title={"Career Trajectory"} experienceList={careerList}/>
+        <LineBreak/>
+        <Experience title={"Some Internships"} experienceList={internshipList} />
+        <LineBreak/>
+        <Footer />
+      </div>
   )
 }
 
