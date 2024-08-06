@@ -4,12 +4,13 @@
   text-align: left;
   width: 95%;
   line-height: 1.5em;
-  /* margin: 4% 1%; */
-  padding: 4%;
+  /* margin: 5px 10px; */
+  padding: 2% 5%;
+  color: rgb(7, 7, 7);
 }
 
 .app-header {
-  color: rgb(130, 54, 230);
+  color: rgb(241, 52, 103);
 }
 
 .about-me {
@@ -19,9 +20,9 @@
 .collapsible-comp {
   margin: 20px 0px;
   padding: 10px;
-  border: 2px solid #f5edff;
+  border: 2px solid #f7f7f7;
   border-radius: 10px;
-  background-color: #f7f7f76b;
+  background-color: #fcfcfc6b;
 }
 
 .collapsible-button{
@@ -101,7 +102,7 @@
 
 .line-break {
   margin: 0.5em 0em;
-  border: 1.5px solid #e6ddff;
+  border: 1.5px solid #f7f7f7;
   border-radius: 1px;
 }
 
@@ -122,10 +123,17 @@
   z-index: -2;
 }
 
+.playfair-display-h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .social-gh, .social-lc, .social-li {
-  color: rgb(117, 74, 255);
+  color: rgb(241, 52, 103);
   text-decoration: none;
-  border-bottom: 1px solid;
+  /* border-bottom: 1px solid; */
   margin: 0px 5px;
   padding: 0px 5px;
 }
@@ -135,6 +143,10 @@ p {
   margin-block-end: .2em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
