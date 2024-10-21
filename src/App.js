@@ -47,11 +47,10 @@ function App() {
         <Helmet>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-          <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
           <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalabale=no' />
           <title>Shubham's archaic personal website</title>
         </Helmet>
-        <header className='app-header playfair-display-h1'>
+        <header className='app-header'>
           <h1>Namaste 🙏 </h1>
         </header>
         <AboutMe />

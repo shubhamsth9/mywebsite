@@ -1,3 +1,7 @@
+:root {
+  --hero-color: #ea3f19;
+}
+
 .app-content {
   max-width: 800px;
   z-index: 1;
@@ -10,7 +14,7 @@
 }
 
 .app-header {
-  color: rgb(241, 52, 103);
+  color: var(--hero-color);
 }
 
 .about-me {
@@ -131,7 +135,7 @@
 }
 
 .social-gh, .social-lc, .social-li {
-  color: rgb(241, 52, 103);
+  color: var(--hero-color);
   text-decoration: none;
   /* border-bottom: 1px solid; */
   margin: 0px 5px;
@@ -145,9 +149,6 @@ p {
   margin-inline-end: 0px;
 }
 
-h1, h2, h3, h4 {
-  font-family: "Playfair Display", serif;
-}
 
 h1 {
   font-weight: 700;
